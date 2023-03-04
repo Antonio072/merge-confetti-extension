@@ -10,7 +10,8 @@
                 "*://*.google.com/*",
                 "https://*.github.com/*"
             ],
-            "js": ["index.js"]
+            "js": ["index.js"],
+            "run_at": "document_end"
         }
     ],
     "host_permissions": ["<all_urls>"]
