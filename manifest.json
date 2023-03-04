@@ -1,0 +1,17 @@
+{
+    "name": "Merge Confetti",
+    "version": "1.0.0",
+    "description": "It gives you confetti when you merge a pull request or resolve a merge conflict",
+    "manifest_version": 3,
+    "author": "José Antonio Velázquez Mandujano",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.google.com/*",
+                "https://*.github.com/*"
+            ],
+            "js": ["index.js"]
+        }
+    ],
+    "host_permissions": ["<all_urls>"]
+}
