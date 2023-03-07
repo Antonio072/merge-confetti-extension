@@ -6,10 +6,7 @@
     "author": "José Antonio Velázquez Mandujano",
     "content_scripts": [
         {
-            "matches": [
-                "*://*.google.com/*",
-                "https://*.github.com/*"
-            ],
+            "matches": ["https://*.github.com/*"],
             "js": ["index.js"],
             "run_at": "document_end"
         }
