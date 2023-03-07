@@ -21,4 +21,3 @@ mergePullRequestButton.addEventListener('click', (event) => {
     })
 })
 
-// Another change to trigger merge conflict
