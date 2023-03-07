@@ -26,3 +26,4 @@ mergePullRequestButton.addEventListener('click', (event) => {
 // Another change
 
 // Change to confirm merge
+// Another change to PR
