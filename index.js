@@ -32,6 +32,10 @@ function runScript() {
 
     }
     else {
+        
+        // TODO: Remove dirty logic
+        setTimeout(() => {
+        console.log("LOG: Merge pull request page");
         const mergePullRequestButton = document.querySelector('button.merge-box-button:nth-child(1)')
         console.log(mergePullRequestButton)
 
@@ -41,12 +45,20 @@ function runScript() {
 
             let confirmButton = document.querySelector('div.btn-group-merge > button:nth-child(1)')
             console.log(confirmButton)
+            let alreadySubmitted = false
 
             confirmButton.addEventListener('click', (event) => {
-                event.preventDefault()
+                 if (!alreadySubmitted){
+                event.preventDefault()        
                 const jsConfetti = new JSConfetti()
                 jsConfetti.addConfetti()
+                alreadySubmitted = true
+                setTimeout(() => {
+                    confirmButton.click()
+                }, 1000)
+            }
             })
         })
+        }, 1000)
     }
 }
