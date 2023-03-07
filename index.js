@@ -22,4 +22,5 @@ mergePullRequestButton.addEventListener('click', (event) => {
     })
 })
 
-// Triggering a merge conflict
+// Triggering a merge conflict 
+// Another change
