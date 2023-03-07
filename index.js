@@ -24,3 +24,5 @@ mergePullRequestButton.addEventListener('click', (event) => {
 
 // Triggering a merge conflict 
 // Another change
+
+// Change to confirm merge
