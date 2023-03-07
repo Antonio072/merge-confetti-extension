@@ -21,3 +21,5 @@ mergePullRequestButton.addEventListener('click', (event) => {
         jsConfetti.addConfetti()
     })
 })
+
+// Triggering a merge conflict
