@@ -11,5 +11,11 @@
             "run_at": "document_end"
         }
     ],
-    "host_permissions": ["<all_urls>"]
+    "host_permissions": ["<all_urls>"],
+    "icons":
+        {
+            "16": "assets/favicon.ico",
+            "48": "assets/icon-48.png",
+            "128": "assets/icon-128.png"
+        }
 }
