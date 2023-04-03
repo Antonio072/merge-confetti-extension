@@ -39,9 +39,7 @@ function runScript() {
         setTimeout(() => {
             console.log("LOG: Merge pull request page");
 
-            let confirmButton = document.querySelector('div.btn-group-merge > button:nth-child(1)')
-            console.log(confirmButton)
-            let alreadySubmitted = false
+
 
             confirmButton.addEventListener('click', (event) => {
                 if (!alreadySubmitted){
