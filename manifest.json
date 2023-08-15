@@ -1,6 +1,6 @@
 {
     "name": "Merge Confetti",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "description": "It gives you confetti when you merge a pull request or resolve a merge conflict",
     "manifest_version": 3,
     "author": "José Antonio Velázquez Mandujano",
